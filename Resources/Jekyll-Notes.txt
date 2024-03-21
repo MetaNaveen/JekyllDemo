@@ -183,8 +183,20 @@ $ sass-migrator division **/*.scss
 Reference:
 https://github.com/ag-grid/ag-grid/issues/4543
 ---------------------------------------
-For Github Pages, it is required.
+Github Pages: 
+- Github repo > Settings > Pages > Build and Deployment: Source: Github Actions > Configure option will be shown. Select "Jekyll" 
+- With default Jekyll configuration, save the file.
+- Now push the code for GH action to build and deploy.
+- Pull the code in local repo and run the following cmd.
+- "bundle lock --add-platform x86_64-linux"
+- Now commit and push.
+- Boom, the site is up and running in matter of seconds.
 
+
+Issue: Error: The process '/opt/hostedtoolcache/Ruby/3.1.4/x64/bin/bundle' failed with exit code 16.
+Solution:
+
+https://stackoverflow.com/questions/72331753/ruby-and-rails-github-action-exit-code-16
 >> bundle lock --add-platform x86_64-linux
 Fetching gem metadata from https://rubygems.org/...........
 Resolving dependencies...
