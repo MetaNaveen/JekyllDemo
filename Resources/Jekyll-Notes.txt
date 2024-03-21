@@ -183,3 +183,11 @@ $ sass-migrator division **/*.scss
 Reference:
 https://github.com/ag-grid/ag-grid/issues/4543
 ---------------------------------------
+For Github Pages, it is required.
+
+>> bundle lock --add-platform x86_64-linux
+Fetching gem metadata from https://rubygems.org/...........
+Resolving dependencies...
+Writing lockfile to D:/Work/Project - Learning/Project - GithubPages/Project - Jekyll/JekyllDemo/Gemfile.lock
+
+---------------------------------------
